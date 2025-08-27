@@ -1,0 +1,11 @@
+torch
+torchvision
+torchaudio
+ultralytics
+transformers
+huggingface-hub
+Pillow
+numpy
+pandas
+requests
+streamlit
