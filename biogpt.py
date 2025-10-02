@@ -332,8 +332,8 @@ from transformers import pipeline
 
 # Using the absolute paths from your setup. Ensure these are correct.
 MODEL_PATH = "indian_food_classifier_final.pth"
-LABELS_DIR = r"C:\Users\mukun\Downloads\01ykn2lflluk39dsqhi4bub\images.cv_01ykn2lflluk39dsqhi4bub\data\train"
-NUTRITION_CSV_PATH = r'C:\Users\mukun\Downloads\Indian_Food_Nutrition_Processed.csv'
+LABELS_DIR = "data\train"
+NUTRITION_CSV_PATH = 'data\Indian_Food_Nutrition_Processed.csv'
 
 # Set device for PyTorch
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
