@@ -1,9 +1,0 @@
-streamlit
-torch
-torchvision
-pandas
-google-generativeai
-huggingface_hub
-sentence-transformers
-chromadb
-transformers
